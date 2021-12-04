@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="2.0">
+	<identification>
+		<encoding>
+			<software>PDFtoMusic Pro - 64-bits v1.7.1d Build 2046E (c) Myriad - http://www.myriad-online.com</software>
+			<?PDFtoMusic Document type 0100- 5A50037C?>
+			<supports attribute="new-system" element="print" type="yes" value="yes"/>
+			<supports attribute="new-page" element="print" type="yes" value="yes"/>
+		</encoding>
+	</identification>
+	<defaults>
+		<scaling>
+			<millimeters>7.648214</millimeters>
+			<tenths>40</tenths>
+		</scaling>
+		<page-layout>
+			<page-height>1551.662</page-height>
+			<page-width>1097.787</page-width>
+			<page-margins type="both">
+				<left-margin>52.300</left-margin>
+				<right-margin>52.300</right-margin>
+				<top-margin>52.300</top-margin>
+				 <bottom-margin>52.300</bottom-margin>
+			</page-margins>
+		</page-layout>
+		<appearance>
+			<line-width type="stem">1.1037</line-width>
+			<line-width type="staff">1.1070</line-width>
+			<line-width type="light barline">1.0424</line-width>
+			<line-width type="heavy barline">5.1477</line-width>
+			<line-width type="leger">1.2177</line-width>
+		</appearance>
+	</defaults>
+	<credit page="1">
+		<credit-words  default-x="543.543" default-y="72.472" justify="left" valign="baseline" font-family="F3" font-size="12" font-weight="normal" font-style="normal">2</credit-words>
+	</credit>
+	<part-list>
+		<score-part id="P1">
+			<part-name></part-name>
+			<score-instrument id="P1-I1">
+				<instrument-name>Instrument 1</instrument-name>
+			</score-instrument>
+			<midi-instrument id="P1-I1">
+				<midi-channel>1</midi-channel>
+				<midi-bank>1</midi-bank>
+				<midi-program>1</midi-program>
+				<volume>50</volume>
+				<pan>0</pan>
+				<elevation>0</elevation>
+				<?Myriad
+				<iddigit>0</iddigit>
+				?>
+			</midi-instrument>
+		</score-part>
+	</part-list>
+	<part id="P1">
+		<!--==========================[1,1]=============================-->
+		<measure number="21" width="258">
+			<sound tempo="80" />
+			<print new-page="yes">
+				<system-layout>
+					<system-margins>
+						<left-margin>24.084</left-margin>
+						<right-margin>11.070</right-margin>
+					</system-margins>
+					<top-system-distance>138.106</top-system-distance>
+				</system-layout>
+				<staff-layout number="2">
+					<staff-distance>60.000</staff-distance>
+				</staff-layout>
+			</print>
+			<attributes>
+				<divisions>6720</divisions>
+				<staves>2</staves>
+				<clef number="1">
+					<sign>G</sign>
+					<line>2</line>
+				</clef>
+				<clef number="2">
+					<sign>F</sign>
+					<line>4</line>
+				</clef>
+				<staff-details number="1" print-object="yes">
+					<staff-lines>5</staff-lines>
+					<staff-size>99.63</staff-size>
+				</staff-details>
+				<staff-details number="2" print-object="yes">
+					<staff-lines>5</staff-lines>
+					<staff-size>99.63</staff-size>
+				</staff-details>
+			</attributes>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.11">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-15.11">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,2]=============================-->
+		<measure number="22" width="241">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-8.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-6.89">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.11">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-15.11">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>33600</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,3]=============================-->
+		<measure number="23" width="241">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-8.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-6.89">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.11">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>33600</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,4]=============================-->
+		<measure number="24" width="219">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-15.11">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>3</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-20.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<tie type="start"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.11">up</stem>
+				<staff>1</staff>
+				<notations>
+					<tied type="start" number="1" placement="above" orientation="under"/>
+				</notations>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,5]=============================-->
+		<measure number="25" width="280">
+			<print new-system="yes">
+				<system-layout>
+					<system-margins>
+						<left-margin>24.084</left-margin>
+						<right-margin>11.070</right-margin>
+					</system-margins>
+					<system-distance>91.661</system-distance>
+				</system-layout>
+				<staff-layout number="2">
+					<staff-distance>60.000</staff-distance>
+				</staff-layout>
+			</print>
+			<attributes>
+				<staff-details number="1" print-object="yes">
+				</staff-details>
+				<staff-details number="2" print-object="yes">
+				</staff-details>
+			</attributes>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<tie type="stop"/>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.33">up</stem>
+				<staff>1</staff>
+				<notations>
+					<tied type="stop" number="1"/>
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.33">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-0.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="4.67">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,6]=============================-->
+		<measure number="26" width="226">
+			<note>
+				<pitch>
+					<step>G</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="4.67">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-0.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.33">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,7]=============================-->
+		<measure number="27" width="226">
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-15.33">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-15.33">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>6720</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<stem default-y="-5.33">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,8]=============================-->
+		<measure number="28" width="227">
+			<note>
+				<pitch>
+					<step>D</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>10080</duration>
+				<voice>1</voice>
+				<type>quarter</type>
+				<dot/>
+				<stem default-y="-10.00">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>3360</duration>
+				<voice>1</voice>
+				<type>eighth</type>
+				<stem default-y="-14.36">up</stem>
+				<staff>1</staff>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<octave>4</octave>
+				</pitch>
+				<duration>13440</duration>
+				<voice>1</voice>
+				<type>half</type>
+				<stem default-y="-15.33">up</stem>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,9]=============================-->
+		<measure number="29" width="270">
+			<print new-system="yes">
+				<system-layout>
+					<system-margins>
+						<left-margin>24.084</left-margin>
+						<right-margin>21.218</right-margin>
+					</system-margins>
+					<system-distance>91.661</system-distance>
+				</system-layout>
+				<staff-layout number="2">
+					<staff-distance>60.000</staff-distance>
+				</staff-layout>
+			</print>
+			<attributes>
+				<staff-details number="1" print-object="yes">
+				</staff-details>
+				<staff-details number="2" print-object="yes">
+				</staff-details>
+			</attributes>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,10]=============================-->
+		<measure number="30" width="229">
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,11]=============================-->
+		<measure number="31" width="229">
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+		<!--==========================[1,12]=============================-->
+		<measure number="32" width="221">
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>1</staff>
+			</note>
+			<backup>
+				<duration>26880</duration>
+			</backup>
+			<note>
+				<rest>
+				</rest>
+				<duration>26880</duration>
+				<voice>1</voice>
+				<type>whole</type>
+				<staff>2</staff>
+			</note>
+		</measure>
+	</part>
+</score-partwise>
