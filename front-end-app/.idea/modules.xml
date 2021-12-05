@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SoundRecorderUtils-master.iml" filepath="$PROJECT_DIR$/.idea/SoundRecorderUtils-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SoundRecorderUtils-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SoundRecorderUtils-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/front-end-app.iml" filepath="$PROJECT_DIR$/.idea/modules/front-end-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/front-end-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/front-end-app.app.iml" />
     </modules>
   </component>
 </project>
