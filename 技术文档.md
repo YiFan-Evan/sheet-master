@@ -1,0 +1,73 @@
+# sheet-master
+
+“页翻易”————基于图像识别和音频匹配的实时乐谱翻页APP
+
+## 项目说明
+
+本项目实现了通过几个技术模块互相配合搭建起来的乐谱自动翻页器。
+通过配置和启动项目前端目录底下的`app`以及后端目录下的`python`服务器，便可正常使用应用程序在演奏过程中实现自动翻页。主要技术包含以下几个关键点：
+
+|  功能   | 实现  |
+|  ----  | ----  |
+| APP  | jdk+android sdk |
+| APP录音MP4  | MediaRecorder库以及安卓的Service |
+| APP选择文件  | com.king.ui:fileselector:1.0.3 |
+| APP显示乐谱PDF  | 通过PdfRenderer转为bitmap |
+| APP上传文件  | commons-httpclient:commons-httpclient:3.1 |
+| 主体服务器 | ubuntu上flask框架的python程序 |
+| 乐谱PDF读取转换xml  | Myriad's PDF to Music (p2mp) and pdftk |
+| xml转换midi  | go语言库（详见main.go） |
+| midi音序识别  | python库（mido） |
+| MP4转换WAV  | ffmpeg |
+| WAV波形转频率响度  | 反傅里叶变换（rfft） |
+| 最高响度频率拾取  | 通过找到纵坐标（分贝）最高点的横坐标（赫兹） |
+| 频率转音序 | 音高唱名——频率对照表 |
+| 序列匹配算法 | 五个连续不同的音得以匹配相等 |
+
+## 功能原理
+
+app在读入pdf时将pdf上传至服务器，服务器通过图像识别模块的转换得到其每页最后一小节的音符音高，
+此时将音高序列作为比对的依据存储。
+在弹奏过程中，app实时将录音上传至服务器，服务器通过音频分析的模块得到当前录音的音序，将当前序列与保存的依据匹配，若判定成功，则http返回翻页信号，app得以接收翻页。
+
+## 如何部署
+
+在装有`python3`、`go`的`linux`服务器下（这里以`ubuntu`举例）
+
+```
+# 安装ffmpeg
+sudo apt-get install ffmpeg
+
+# 安装pdftk
+sudo apt-get install pdftk
+
+# 安装p2mp
+chmod +x pdftomusicpro-1.7.1d.0.run
+./pdftomusicpro-1.7.1d.0.run
+which p2mp
+
+# 安装mido
+pip3 install mido
+
+# 安装mido
+pip3 install wave
+
+# 安装numpy
+pip3 install numpy
+
+# 设置goproxy.io代理
+export GOPROXY=https://goproxy.io
+# 设置GO111MOUDLE
+export GO111MODULE=on 
+
+# 设置go项目
+go mod init gin
+go mod edit -require github.com/gin-gonic/gin@latest
+
+# 运行服务程序
+python3 app.py
+```
+
+## 如何使用
+
+点击app上`打开PDF`按钮选择文件，然后点击`开始录音`即可演奏，点击`停止录音`即可暂停。
